@@ -5,7 +5,7 @@
     border: 1px solid red;
     transition: all 2s;
 }
-.ex-1-square:hover{
+.ex-1-square:hover {
     background: red;
 }
 
@@ -16,7 +16,7 @@
     background: red;
     transition: all 3s;
 }
-.ex-2-square:active{
+.ex-2-square:active {
     width: 99%;
 }
 
@@ -27,7 +27,7 @@
     background: red;
     transition: all 1s;
 }
-.ex-3-square:hover{
+.ex-3-square:hover {
     border-radius: 50%;
 }
 
@@ -38,7 +38,7 @@
     background: red;
     transition: all 2s;
 }
-.ex-4-square:hover{
+.ex-4-square:hover {
     background: rgba(255, 0, 0, 0)
 }
 
@@ -50,10 +50,10 @@
     background: red;
     transition: all 1s;
 }
-.ex-5-square:hover{
+.ex-5-square:hover {
     transform: scale(2,2);
 }
-.ex-5-square:active{
+.ex-5-square:active {
     transform: scale(.5,.5);
 }
 
@@ -62,21 +62,21 @@
     width: 500px;
 }
 /* Esercizio 6 */
-.ex-6-img:hover{
+.ex-6-img:hover {
     filter: grayscale(1);
 }
 /* Esercizio 7 */
-.ex-7-img{
+.ex-7-img {
     transition: all 1.5s;
 }
-.ex-7-img:hover{
+.ex-7-img:hover {
     filter: grayscale(.5) sepia(.8);
 }
 /* Esercizio 8 */
-.ex-8-img{
+.ex-8-img {
     transition: all 1.5s;
 }
-.ex-8-img:hover{
+.ex-8-img:hover {
     filter: grayscale(.5) sepia(.8);
     border-radius: 20px;
 }
@@ -87,7 +87,7 @@
     width: 400px;
     transition: all 1.5s;
 }
-.ex-9-img:hover{
+.ex-9-img:hover {
     filter: grayscale(.5) sepia(.8);
     border-radius: 20px;
     transform: scale(1.5);
@@ -111,17 +111,17 @@
 .ex-11-icon {
     font-size: 60px;
 }
-.ex-11-icon:hover{
+.ex-11-icon:hover {
     animation: spin-and-reverse 2s linear;
 }
-@keyframes spin-and-reverse{
-    0%{
+@keyframes spin-and-reverse {
+    0% {
         transform: rotate(0);        
     }
-    80%{
+    80% {
         transform: rotate(270deg);
     }
-    100%{
+    100% {
         transform: rotate(0);
     }
 }
@@ -158,98 +158,96 @@
 }
 
 /* Esercizio 12 */
-.ex-12-button:hover .ex-12-top-white{
+.ex-12-button:hover .ex-12-top-white {
     animation: top-bar 2s linear;
 }
-.ex-12-button:hover .ex-12-bottom-white{
+.ex-12-button:hover .ex-12-bottom-white {
     animation: bottom-bar 2s linear;
 }
-@keyframes top-bar{
-    0%{
+@keyframes top-bar {
+    0% {
         top: -10px;
         left: 10%;
     }
-    50%{
+    50% {
         top: -10px;
         left: calc(100% - 60px);
     }
-
-    100%{
+    100% {
         top: -10px;
         left: 10%;
     }
 }
-@keyframes bottom-bar{
-    0%{
+@keyframes bottom-bar {
+    0% {
         bottom: -10px;
         right: 20%;
     }
-    50%{
+    50% {
         bottom: -10px;
         right: calc(100% - 60px);
     }
-    100%{
+    100% {
         bottom: -10px;
         right: 20%;
     }
 }
 
 /* Esercizio 13 */
-.ex-13-button:hover .ex-13-top-white{
+.ex-13-button:hover .ex-13-top-white {
     animation: top-bar-complete 2s linear;
 }
-.ex-13-button:hover .ex-13-bottom-white{
+.ex-13-button:hover .ex-13-bottom-white {
     animation: bottom-bar-complete 2s linear;
 }
 @keyframes top-bar-complete{
-    0%{
+    0% {
         top: -10px;
         left: 10%;
     }
-    20%{
+    20% {
         top: -10px;
         left: calc(100% - 50px);
     }
-    40%{
+    40% {
         top: 60px;
         left: calc(100% - 50px);
     }
-    60%{
+    60% {
         top: 60px;
         left: -10px;
     }
-    80%{
+    80% {
         top: -10px;
         left: -10px;
     }
-    100%{
+    100% {
         top: -10px;
         left: 10%;
     }
-}
+}                              
 @keyframes bottom-bar-complete{
-    0%{
+    0% {
         bottom: -10px;
         right: 20%;
     }
-    20%{
+    20% {
         bottom: -10px;
         right: calc(100% - 50px);
     }
-    
-    40%{
+    40% {
         bottom: 60px;
-        right: calc(100% - 60px);
+        right: calc(100% - 50px);
     }
-    60%{
+    60% {
         bottom: 60px;
         right: -10px;
     }
-    80%{
+    80% {
         bottom: -10px;
         right: -10px;
     }
-    100%{
+    100% {
         bottom: -10px;
         right: 20%;
     }
